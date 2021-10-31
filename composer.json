@@ -1,0 +1,16 @@
+{
+    "name": "romaindoukhan/composer_2",
+    "description": "Quete_composer2",
+    "autoload": {
+        "psr-4": {
+            "Romaindoukhan\\Composer2\\": "App/Wcs"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romain Doukhan",
+            "email": "romaindoukhan@gmail.com"
+        }
+    ],
+    "require": {}
+}
