@@ -1,7 +1,7 @@
 <?php
 
-require_once '/Users/romaindoukhan/Documents/Dev_web/Code/PHP/Composer_2/App/Wcs/Hello.php';
-require_once '/Users/romaindoukhan/Documents/Dev_web/Code/PHP/Composer_2/vendor/autoload.php';
+require '../vendor/autoload.php';
+require '../src/Wcs/Hello.php';
 
-$hello = new Hello();
+$hello = new App\Wcs\Hello();
 echo $hello->talk();

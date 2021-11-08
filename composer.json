@@ -3,7 +3,7 @@
     "description": "Quete_composer2",
     "autoload": {
         "psr-4": {
-            "Romaindoukhan\\Composer2\\": "App/Wcs"
+            "App\\": "src/"
         }
     },
     "authors": [
